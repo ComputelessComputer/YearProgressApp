@@ -2,6 +2,8 @@
 
 Take back control of your time.
 
+[💾 Download link](https://github.com/ComputelessComputer/YearProgressApp/releases/tag/Production)
+
 ![image](https://github.com/ComputelessComputer/YearProgressApp/assets/63365510/4fe1e846-b69e-4ff8-acb9-d0e966aae6ef)
 
 ## Background
