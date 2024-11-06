@@ -8,7 +8,7 @@ Take back control of your time.
 
 ## Background
 
-I was looking into [Nat Friedman's homepage](https://nat.org/) about 5 months ago and read a really trivial yet astonishing statement: "A week is 2% of the year".
+I was looking into [Nat Friedman's homepage](https://nat.org/) about 5 months ago and read a really obvious yet astonishing statement: "A week is 2% of the year".
 
 Everyone knows that time is precious. But it's really not that tangible when you're stuck in the absolute scale of a clock. 
 
