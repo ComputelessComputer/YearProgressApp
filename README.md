@@ -31,6 +31,7 @@ Most of all, it's free!
 I initially considered pricing it, but given my involvement in other businesses, I preferred not to deal with the hassle. Moreover, I wanted to contribute to enhancing productivity freely.
 
 ![image](https://github.com/ComputelessComputer/YearProgressApp/assets/63365510/4661fbac-6699-4edc-8dfd-a702483e5e4e)
+Link: https://www.linkedin.com/posts/johntopia_a-week-is-2-of-a-year-every-monday-i-activity-7163884942811148288-pf3c
 
 P.S. People loved it when I shared it on my LinkedIn ♥️
 
