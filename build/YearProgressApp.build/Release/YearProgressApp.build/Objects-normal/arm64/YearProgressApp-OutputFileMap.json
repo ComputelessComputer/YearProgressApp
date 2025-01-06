@@ -1,0 +1,20 @@
+{
+  "" : {
+    "const-values" : "/Users/johnjeong/dev/Projects/YearProgressApp/build/YearProgressApp.build/Release/YearProgressApp.build/Objects-normal/arm64/YearProgressApp-master.swiftconstvalues",
+    "dependencies" : "/Users/johnjeong/dev/Projects/YearProgressApp/build/YearProgressApp.build/Release/YearProgressApp.build/Objects-normal/arm64/YearProgressApp-master.d",
+    "diagnostics" : "/Users/johnjeong/dev/Projects/YearProgressApp/build/YearProgressApp.build/Release/YearProgressApp.build/Objects-normal/arm64/YearProgressApp-master.dia",
+    "emit-module-dependencies" : "/Users/johnjeong/dev/Projects/YearProgressApp/build/YearProgressApp.build/Release/YearProgressApp.build/Objects-normal/arm64/YearProgressApp-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/johnjeong/dev/Projects/YearProgressApp/build/YearProgressApp.build/Release/YearProgressApp.build/Objects-normal/arm64/YearProgressApp-master-emit-module.dia",
+    "swift-dependencies" : "/Users/johnjeong/dev/Projects/YearProgressApp/build/YearProgressApp.build/Release/YearProgressApp.build/Objects-normal/arm64/YearProgressApp-master.swiftdeps"
+  },
+  "/Users/johnjeong/dev/Projects/YearProgressApp/YearProgressApp/AppDelegate.swift" : {
+    "index-unit-output-path" : "/YearProgressApp.build/Release/YearProgressApp.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/johnjeong/dev/Projects/YearProgressApp/build/YearProgressApp.build/Release/YearProgressApp.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/johnjeong/dev/Projects/YearProgressApp/build/YearProgressApp.build/Release/YearProgressApp.build/Objects-normal/arm64/AppDelegate.o"
+  },
+  "/Users/johnjeong/dev/Projects/YearProgressApp/build/YearProgressApp.build/Release/YearProgressApp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/YearProgressApp.build/Release/YearProgressApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/johnjeong/dev/Projects/YearProgressApp/build/YearProgressApp.build/Release/YearProgressApp.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/johnjeong/dev/Projects/YearProgressApp/build/YearProgressApp.build/Release/YearProgressApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

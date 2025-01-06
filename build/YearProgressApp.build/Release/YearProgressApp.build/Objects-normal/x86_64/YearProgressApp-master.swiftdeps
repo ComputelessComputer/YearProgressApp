@@ -1,0 +1,8 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "04575a471ee9afd01f176d3b992480845c0a01538a71fb74446b2e7975b78563"
+build_start_time: [1736175400, 765162000]
+build_end_time: [1736175405, 572823000]
+inputs:
+  "/Users/johnjeong/dev/Projects/YearProgressApp/YearProgressApp/AppDelegate.swift": [1736174965, 409475786]
+  ? "/Users/johnjeong/dev/Projects/YearProgressApp/build/YearProgressApp.build/Release/YearProgressApp.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1736175399, 620654318]

@@ -1,0 +1,50 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/johnjeong/dev/Projects/YearProgressApp/build/Release/YearProgressApp.app/Contents/MacOS/YearProgressApp'
+relocations:
+  - { offset: 0xC8BD8, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x110, symBinAddr: 0x1000021E0, symSize: 0x40 }
+  - { offset: 0xC9077, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2210, symBinAddr: 0x1000042E0, symSize: 0x90 }
+  - { offset: 0xC9223, size: 0x8, addend: 0x0, symName: '_$sSo7NSTimerCIeghg_ABIeyBhy_TR', symObjAddr: 0x1F70, symBinAddr: 0x100004040, symSize: 0x50 }
+  - { offset: 0xC923B, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateCfETo', symObjAddr: 0x21D0, symBinAddr: 0x1000042A0, symSize: 0x40 }
+  - { offset: 0xC926A, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateCMa', symObjAddr: 0x22A0, symBinAddr: 0x100004370, symSize: 0x20 }
+  - { offset: 0xC927E, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x22C0, symBinAddr: 0x100004390, symSize: 0x10 }
+  - { offset: 0xC9292, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x22D0, symBinAddr: 0x1000043A0, symSize: 0x10 }
+  - { offset: 0xC92A6, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOwet', symObjAddr: 0x22E0, symBinAddr: 0x1000043B0, symSize: 0x80 }
+  - { offset: 0xC92BA, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOwst', symObjAddr: 0x2360, symBinAddr: 0x100004430, symSize: 0xD0 }
+  - { offset: 0xC92CE, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOwug', symObjAddr: 0x2430, symBinAddr: 0x100004500, symSize: 0x10 }
+  - { offset: 0xC92E2, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOwup', symObjAddr: 0x2440, symBinAddr: 0x100004510, symSize: 0x10 }
+  - { offset: 0xC92F6, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOwui', symObjAddr: 0x2450, symBinAddr: 0x100004520, symSize: 0x10 }
+  - { offset: 0xC930A, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOMa', symObjAddr: 0x2460, symBinAddr: 0x100004530, symSize: 0x10 }
+  - { offset: 0xC931E, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOs12CaseIterableAA8AllCasessAGP_SlWT', symObjAddr: 0x2470, symBinAddr: 0x100004540, symSize: 0x10 }
+  - { offset: 0xC9332, size: 0x8, addend: 0x0, symName: '_$sSay15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOGSayxGSlsWl', symObjAddr: 0x2480, symBinAddr: 0x100004550, symSize: 0x40 }
+  - { offset: 0xC9346, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x24C0, symBinAddr: 0x100004590, symSize: 0x40 }
+  - { offset: 0xC935A, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOSHAASQWb', symObjAddr: 0x2500, symBinAddr: 0x1000045D0, symSize: 0x10 }
+  - { offset: 0xC936E, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOAFSQAAWl', symObjAddr: 0x2510, symBinAddr: 0x1000045E0, symSize: 0x30 }
+  - { offset: 0xC9382, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x2540, symBinAddr: 0x100004610, symSize: 0x40 }
+  - { offset: 0xC93D8, size: 0x8, addend: 0x0, symName: '_$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfC10Foundation8CalendarV9ComponentO_Tgm5Tf4g_n', symObjAddr: 0x2580, symBinAddr: 0x100004650, symSize: 0x250 }
+  - { offset: 0xC9491, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC10startTimer33_BBD5BDFB7EDF293D64289CE911CBEFA2LLyyFySo7NSTimerCYbcfU_TA', symObjAddr: 0x2830, symBinAddr: 0x100004900, symSize: 0x10 }
+  - { offset: 0xC94A5, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x2840, symBinAddr: 0x100004910, symSize: 0x20 }
+  - { offset: 0xC94B9, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x2860, symBinAddr: 0x100004930, symSize: 0x10 }
+  - { offset: 0xC9524, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLO4nextyyF', symObjAddr: 0x0, symBinAddr: 0x1000020D0, symSize: 0xA0 }
+  - { offset: 0xC9697, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0xA0, symBinAddr: 0x100002170, symSize: 0x10 }
+  - { offset: 0xC9705, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOSHAASH9hashValueSivgTW', symObjAddr: 0xB0, symBinAddr: 0x100002180, symSize: 0x40 }
+  - { offset: 0xC97CC, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0xF0, symBinAddr: 0x1000021C0, symSize: 0x20 }
+  - { offset: 0xC9829, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC0B4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLOs12CaseIterableAAsAGP8allCases03AllO0QzvgZTW', symObjAddr: 0x150, symBinAddr: 0x100002220, symSize: 0x30 }
+  - { offset: 0xC98BF, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC29applicationDidFinishLaunchingyy10Foundation12NotificationVF', symObjAddr: 0x180, symBinAddr: 0x100002250, symSize: 0x230 }
+  - { offset: 0xC9B36, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC15setupStatusItem33_BBD5BDFB7EDF293D64289CE911CBEFA2LLyyF', symObjAddr: 0x3B0, symBinAddr: 0x100002480, symSize: 0x370 }
+  - { offset: 0xC9C2B, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC10startTimer33_BBD5BDFB7EDF293D64289CE911CBEFA2LLyyF', symObjAddr: 0x720, symBinAddr: 0x1000027F0, symSize: 0x150 }
+  - { offset: 0xC9C62, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC10startTimer33_BBD5BDFB7EDF293D64289CE911CBEFA2LLyyFySo7NSTimerCYbcfU_', symObjAddr: 0x1F20, symBinAddr: 0x100003FF0, symSize: 0x50 }
+  - { offset: 0xC9E32, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC06updateB033_BBD5BDFB7EDF293D64289CE911CBEFA2LLyyF', symObjAddr: 0x870, symBinAddr: 0x100002940, symSize: 0x15A0 }
+  - { offset: 0xCAAD5, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC29applicationDidFinishLaunchingyy10Foundation12NotificationVFTo', symObjAddr: 0x1E10, symBinAddr: 0x100003EE0, symSize: 0x80 }
+  - { offset: 0xCAB02, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC06selectA4Mode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLyyFTo', symObjAddr: 0x1E90, symBinAddr: 0x100003F60, symSize: 0x30 }
+  - { offset: 0xCAB43, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC15selectMonthMode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLyyFTo', symObjAddr: 0x1EC0, symBinAddr: 0x100003F90, symSize: 0x30 }
+  - { offset: 0xCAB84, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC13selectDayMode33_BBD5BDFB7EDF293D64289CE911CBEFA2LLyyFTo', symObjAddr: 0x1EF0, symBinAddr: 0x100003FC0, symSize: 0x30 }
+  - { offset: 0xCABD6, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC22statusBarButtonClicked33_BBD5BDFB7EDF293D64289CE911CBEFA2LLyySo08NSStatusfG0CFTo', symObjAddr: 0x1FC0, symBinAddr: 0x100004090, symSize: 0x60 }
+  - { offset: 0xCAC32, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateC24applicationWillTerminateyy10Foundation12NotificationVFTo', symObjAddr: 0x2020, symBinAddr: 0x1000040F0, symSize: 0x80 }
+  - { offset: 0xCAC6F, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateCACycfc', symObjAddr: 0x20A0, symBinAddr: 0x100004170, symSize: 0xE0 }
+  - { offset: 0xCAC94, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateCACycfcTo', symObjAddr: 0x2180, symBinAddr: 0x100004250, symSize: 0x20 }
+  - { offset: 0xCACA8, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp0C8DelegateCfD', symObjAddr: 0x21A0, symBinAddr: 0x100004270, symSize: 0x30 }
+  - { offset: 0xCAE5E, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp19ResourceBundleClass33_55A22A956E2C243DBADCD91BCB9FDFBELLCfD', symObjAddr: 0x0, symBinAddr: 0x100004990, symSize: 0x20 }
+  - { offset: 0xCAEA0, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp19ResourceBundleClass33_55A22A956E2C243DBADCD91BCB9FDFBELLCMa', symObjAddr: 0x20, symBinAddr: 0x1000049B0, symSize: 0x14 }
+  - { offset: 0xCAEBB, size: 0x8, addend: 0x0, symName: '_$s15YearProgressApp19ResourceBundleClass33_55A22A956E2C243DBADCD91BCB9FDFBELLCfD', symObjAddr: 0x0, symBinAddr: 0x100004990, symSize: 0x20 }
+...
