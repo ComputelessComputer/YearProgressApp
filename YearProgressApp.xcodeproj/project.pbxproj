@@ -12,6 +12,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		279E18752D48A70E0073233E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E57A4572B76644F00934477 /* YearProgressApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YearProgressApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E57A45A2B76644F00934477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E57A45E2B76645100934477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +49,7 @@
 		8E57A4592B76644F00934477 /* YearProgressApp */ = {
 			isa = PBXGroup;
 			children = (
+				279E18752D48A70E0073233E /* Info.plist */,
 				8E57A45A2B76644F00934477 /* AppDelegate.swift */,
 				8E57A45E2B76645100934477 /* Assets.xcassets */,
 				8E57A4632B76645100934477 /* YearProgressApp.entitlements */,
@@ -257,10 +259,13 @@
 				CODE_SIGN_ENTITLEMENTS = YearProgressApp/YearProgressApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 39FQLYPH85;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 6SLY7V277V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YearProgressApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Year Progress";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -269,7 +274,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.johnjeong.YearProgressApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnjeong.yearprogress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -284,10 +289,13 @@
 				CODE_SIGN_ENTITLEMENTS = YearProgressApp/YearProgressApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 39FQLYPH85;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 6SLY7V277V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YearProgressApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Year Progress";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -296,7 +304,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.johnjeong.YearProgressApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnjeong.yearprogress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

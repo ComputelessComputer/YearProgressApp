@@ -6,6 +6,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private var statusItem: NSStatusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     private var currentMode: ProgressMode = .year
     private var updateTimer: Timer?
+    private let launchAtLoginKey = "LaunchAtLogin"
     
     private enum ProgressMode: CaseIterable {
         case year, month, day
@@ -37,11 +38,13 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         startTimer()
         updateProgress()
         
-        // Register as login item
-        do {
-            try SMAppService.mainApp.register()
-        } catch {
-            print("Failed to register login item: \(error.localizedDescription)")
+        // Don't register as login item by default
+        if UserDefaults.standard.bool(forKey: launchAtLoginKey) {
+            do {
+                try SMAppService.mainApp.register()
+            } catch {
+                print("Failed to register login item: \(error.localizedDescription)")
+            }
         }
     }
     
@@ -58,6 +61,13 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         menu.addItem(NSMenuItem(title: "Year Progress", action: #selector(selectYearMode), keyEquivalent: ""))
         menu.addItem(NSMenuItem(title: "Month Progress", action: #selector(selectMonthMode), keyEquivalent: ""))
         menu.addItem(NSMenuItem(title: "Day Progress", action: #selector(selectDayMode), keyEquivalent: ""))
+        
+        menu.addItem(NSMenuItem.separator())
+        
+        // Add launch at login toggle
+        let launchAtLoginItem = NSMenuItem(title: "Launch at Login", action: #selector(toggleLaunchAtLogin), keyEquivalent: "")
+        launchAtLoginItem.state = UserDefaults.standard.bool(forKey: launchAtLoginKey) ? .on : .off
+        menu.addItem(launchAtLoginItem)
         
         menu.addItem(NSMenuItem.separator())
         menu.addItem(withTitle: "Quit", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
@@ -159,6 +169,22 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             }
             
             button.title = " \(formatter.string(from: NSNumber(value: progress))!)% \(displayText)"
+        }
+    }
+    
+    @objc private func toggleLaunchAtLogin(_ sender: NSMenuItem) {
+        do {
+            if sender.state == .on {
+                try SMAppService.mainApp.unregister()
+                sender.state = .off
+                UserDefaults.standard.set(false, forKey: launchAtLoginKey)
+            } else {
+                try SMAppService.mainApp.register()
+                sender.state = .on
+                UserDefaults.standard.set(true, forKey: launchAtLoginKey)
+            }
+        } catch {
+            print("Failed to toggle launch at login: \(error.localizedDescription)")
         }
     }
     
