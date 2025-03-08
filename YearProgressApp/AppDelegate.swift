@@ -7,7 +7,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private var currentMode: ProgressMode = .year
     private var updateTimer: Timer?
     private let launchAtLoginKey = "LaunchAtLogin"
-    
+    private var yearMenuItem: NSMenuItem?
+    private var monthMenuItem: NSMenuItem?
+    private var dayMenuItem: NSMenuItem?
+
     private enum ProgressMode: CaseIterable {
         case year, month, day
         
@@ -58,9 +61,14 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         let menu = NSMenu()
         
         // Add mode selection menu items
-        menu.addItem(NSMenuItem(title: "Year Progress", action: #selector(selectYearMode), keyEquivalent: ""))
-        menu.addItem(NSMenuItem(title: "Month Progress", action: #selector(selectMonthMode), keyEquivalent: ""))
-        menu.addItem(NSMenuItem(title: "Day Progress", action: #selector(selectDayMode), keyEquivalent: ""))
+        yearMenuItem = NSMenuItem(title: "Year Progress", action: #selector(selectYearMode), keyEquivalent: "")
+        monthMenuItem = NSMenuItem(title: "Month Progress", action: #selector(selectMonthMode), keyEquivalent: "")
+        dayMenuItem = NSMenuItem(title: "Day Progress", action: #selector(selectDayMode), keyEquivalent: "")
+        if let yearItem = yearMenuItem, let monthItem = monthMenuItem, let dayItem = dayMenuItem {
+            menu.addItem(yearItem)
+            menu.addItem(monthItem)
+            menu.addItem(dayItem)
+        }
         
         menu.addItem(NSMenuItem.separator())
         
@@ -73,20 +81,26 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         menu.addItem(withTitle: "Quit", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
         
         statusItem.menu = menu
+        
+        // Set initial checkmark for current mode
+        updateMenuCheckmarks()
     }
     
     @objc private func selectYearMode() {
         currentMode = .year
+        updateMenuCheckmarks()
         updateProgress()
     }
     
     @objc private func selectMonthMode() {
         currentMode = .month
+        updateMenuCheckmarks()
         updateProgress()
     }
     
     @objc private func selectDayMode() {
         currentMode = .day
+        updateMenuCheckmarks()
         updateProgress()
     }
     
@@ -105,6 +119,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     @objc private func statusBarButtonClicked(_ sender: NSStatusBarButton) {
         currentMode.next()
+        updateMenuCheckmarks()
         updateProgress()
     }
     
@@ -170,6 +185,12 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             
             button.title = " \(formatter.string(from: NSNumber(value: progress))!)% \(displayText)"
         }
+    }
+    
+    private func updateMenuCheckmarks() {
+        yearMenuItem?.state = currentMode == .year ? .on : .off
+        monthMenuItem?.state = currentMode == .month ? .on : .off
+        dayMenuItem?.state = currentMode == .day ? .on : .off
     }
     
     @objc private func toggleLaunchAtLogin(_ sender: NSMenuItem) {
